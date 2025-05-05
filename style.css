@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #222;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #e84118;
+}
+
+.sebastian-img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+#respostas button {
+  display: block;
+  background-color: #353b48;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#respostas button:hover {
+  background-color: #2f3640;
+}
+
+#btn-proximo {
+  display: none;
+  background-color: #e84118;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 15px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn-proximo:hover {
+  background-color: #c23616;
+}
+
+.hidden {
+  display: none;
+}
